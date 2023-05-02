@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right,rgb(30, 6, 6),rgb(30, 29, 30));
+    color: white;
+    box-sizing: border-box;
+}
+.gameDiv h1{
+    margin-left: 500px;
+    font-family: cursive;
+    font-size: x-large;
+    position: absolute;
+    margin-top: 500px;
+}
+.gameDiv button{
+    margin-left: 630px;
+    border: none;
+    margin-top: 300px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    position: absolute;
+}
+.gameDiv form{
+    margin-left: 590px;
+    margin-top: 200px;
+    position: absolute;
+    border: none;
+    color: black;
+}
+.gameDiv button:hover{
+    background-color: rgb(78, 67, 68);
+    transition: 0.6s;
+    color: white;
+    height: 35px;
+}
